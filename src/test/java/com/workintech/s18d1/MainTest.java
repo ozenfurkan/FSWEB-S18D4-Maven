@@ -1,3 +1,4 @@
+
 package com.workintech.s18d1;
 
 import com.workintech.s18d1.dao.BurgerDao;
@@ -68,7 +69,7 @@ class MainTest {
         assertEquals(1L, burger.getId());
         assertEquals("Vegan Delight", burger.getName());
         assertEquals(8.99, burger.getPrice());
-        assertEquals(true, burger.getIsVegan());
+        assertEquals(true, burger.isIsVegan());
         assertEquals(BreadType.WRAP, burger.getBreadType());
         assertEquals("Lettuce, Tomato, Vegan Patty, Avocado", burger.getContents());
     }
